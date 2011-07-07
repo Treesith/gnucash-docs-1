@@ -1,8 +1,10 @@
 *.bak
+*.epub
 *.fo
 *.gmo
 *.la
 *.lo
+*.mobi
 *.omf.out
 *.orig
 *.pyc

@@ -28,4 +28,6 @@ DISTCLEANFILES =  $(docname)-ja_JP.omf.out
 CLEANFILES =  $(DISTCLEANFILES)
 include $(top_srcdir)/xmldocs.make
 include $(top_srcdir)/pdf.make
+include $(top_srcdir)/epub.make
+include $(top_srcdir)/mobi.make
 dist-hook: app-dist-hook
