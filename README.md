@@ -5,7 +5,7 @@
 ### upstream/\*: (branches, tags)
 These are upstream from git://github.com/Gnucash/gnucash-docs.git
 
-### trunk:
+### master:
 Only includes README.md (this file).
 
 ### 2.4.1-in-epub-and-mobi:
@@ -19,4 +19,11 @@ See support-for-epub-and-mobi branch for further works.
 To implement support for EPUB and MOBI generation.
 
 Currently work in progress.
+
+### patch-v1-to-support-for-epub-generation: (tag)
+
+Patch v1 to support for epub generation
+(squashed epub-related commits in support-for-epub-and-mobi into one commit).
+
+This patch is posted to gnucash-devel on 2011-07-16.
 
