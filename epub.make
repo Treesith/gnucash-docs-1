@@ -13,7 +13,6 @@ epub-am:
 	posthook='exit 1'; \
 	(cd "$$EPUB_TMPDIR" && \
 	echo "application/epub+zip" > mimetype && \
-	hogee && \
 	xsltproc --stringparam base.dir OEBPS/ \
 	         --stringparam epub.metainf.dir META-INF/ \
 	         --stringparam epub.oebps.dir OEBPS/ \
